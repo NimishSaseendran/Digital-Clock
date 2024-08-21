@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: black; */
+    /* background: linear-gradient(to bottom,  #9900e6,  #d580ff); */
+}
+
+
+section{
+    font-family: "Concert One", sans-serif;
+    font-size: 5rem;
+}
+
+p{
+    text-shadow: 5px 5px 10px black;
+}
+
+@media screen and (max-width:768px) {
+    section{
+        font-size: 3rem;
+    }
+}
